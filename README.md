@@ -12,7 +12,7 @@ code written in E to code written in Java based on the grammar specified by the
 BNF included below.
 
 ## BNF Used
-![EBNF](EBNF.png)
+![EBNF](EBNF.png)  
 **Note**: The BNF above only partially describes the E language with the non-
 terminals in lowercase and terminals are enclosed in single quotes ('').
 
