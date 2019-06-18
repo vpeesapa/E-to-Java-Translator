@@ -14,16 +14,21 @@ BNF included below.
 ## BNF Used
 ![EBNF](EBNF.png)  
 **Note**: The BNF above only partially describes the E language with the non-
-terminals in lowercase and terminals are enclosed in single quotes ('').
+terminals in lowercase and terminals enclosed in single quotes ('').
 
 ## Implementation of Project
 
 ### Part 1: Lexical Analysis
 In this part of the project, we read every character from our input (which is
 the code written in E) and classify them into different tokens. In the long run,
-this classification makes it easier to parse this input in parts 2 and 3.
+this classification makes it easier to parse this input in parts 2 and 3. The
+code for this is present in `Scan.java`, `Token.java`, and `TK.java`.
 
 ### Part 2: Syntactic Analysis
+This part of the project was written in `Parser.java`, where after tokenizing
+all the characters read from the input, we needed to parse it to check if the E
+program is syntactically correct. We managed to accomplish this by implementing
+a parse tree for all the different possibilities of code that could be present.
 
 ### Part 3: Semantic Analysis
 
