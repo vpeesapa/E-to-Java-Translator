@@ -14,7 +14,7 @@ BNF included below.
 ## BNF Used
 ![EBNF](EBNF.png)  
 **Note**: The BNF above only partially describes the E language with the non-
-terminals in lowercase and terminals enclosed in single quotes ('').
+terminals in lowercase and terminals enclosed in single quotes (' ').
 
 ## Implementation of Project
 
@@ -28,7 +28,8 @@ code for this is present in `Scan.java`, `Token.java`, and `TK.java`.
 This part of the project was written in `Parser.java`, where after tokenizing
 all the characters read from the input, we needed to parse it to check if the E
 program is syntactically correct. We managed to accomplish this by implementing
-a parse tree for all the different possibilities of code that could be present.
+a **parse tree** for all the different possibilities of code that could be
+present.
 
 ### Part 3: Semantic Analysis
 
