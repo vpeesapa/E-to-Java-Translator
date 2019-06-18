@@ -13,6 +13,21 @@ BNF included below.
 
 ## BNF Used
 ![EBNF](EBNF.png)
+**Note**: The BNF above only partially describes the E language with the non-
+terminals in lowercase and terminals are enclosed in single quotes ('').
+
+## Implementation of Project
+
+### Part 1: Lexical Analysis
+In this part of the project, we read every character from our input (which is
+the code written in E) and classify them into different tokens. In the long run,
+this classification makes it easier to parse this input in parts 2 and 3.
+
+### Part 2: Syntactic Analysis
+
+### Part 3: Semantic Analysis
+
+### Part 4: Code Generation
 
 ## Usage
 ``` sh
